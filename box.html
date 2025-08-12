@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boxeo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Boxeo 🥊</h1>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    <nav id="navMenu">
+      <a href="index.html">🏠 Inicio</a>
+      <a href="futbol.html">⚽ Fútbol</a>
+      <a href="basquet.html">🏀 Básquetbol</a>
+      <a href="box.html">🥊 Boxeo</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Introducción -->
+    <section class="deporte-intro">
+      <h2>¡El arte noble del combate!</h2>
+      <p>Deporte de contacto que exige disciplina, resistencia y estrategia, con más de 200 años de historia organizada.</p>
+    </section>
+
+    <!-- Tarjetas Informativas -->
+    <div class="tipos-deporte">
+      <!-- Tarjeta 1: Reglas Básicas -->
+      <div class="tipo">
+        <h4>📜 Reglas Básicas</h4>
+        <img 
+          src="https://images.unsplash.com/photo-1509563268479-0f004cf3f58b?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&dl=joel-muniz-lUK16p_JtCM-unsplash.jpg" 
+          alt="Boxeadores en pelea" 
+          class="imagen-tarjeta"
+        >
+        <ul class="lista-reglas">
+          <li>⏱️ <strong>Asaltos:</strong> 3 a 12 rounds (3 minutos c/u)</li>
+          <li>✋ <strong>Golpes:</strong> Solo puños (nunca debajo de la cintura)</li>
+          <li>🟦 <strong>Ring:</strong> Área de 5-7 metros</li>
+          <li>🥊 <strong>Protectores:</strong> Guantes y cabezal (amateurs)</li>
+        </ul>
+      </div>
+      
+      <!-- Tarjeta 2: Estilos -->
+      <div class="tipo">
+        <h4>🥋 Estilos</h4>
+        <img 
+          src="https://images.unsplash.com/photo-1517438322307-e67111335449?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" 
+          alt="Boxeador entrenando" 
+          class="imagen-tarjeta"
+        >
+        <ul class="lista-reglas">
+          <li><strong>Out-boxer:</strong> Mantiene distancia con jab</li>
+          <li><strong>In-fighter:</strong> Pelea cuerpo a cuerpo</li>
+          <li><strong>Slugger:</strong> Golpes poderosos</li>
+          <li><strong>Switch-hitter:</strong> Cambia de postura</li>
+        </ul>
+      </div>
+      
+      <!-- Tarjeta 3: Requisitos -->
+      <div class="tipo">
+        <h4>💪 Para Practicarlo</h4>
+        <img 
+          src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" 
+          alt="Equipo de boxeo" 
+          class="imagen-tarjeta"
+        >
+        <ul class="lista-reglas">
+          <li>🏋️‍♂️ <strong>Condición:</strong> Resistencia y fuerza</li>
+          <li>🥋 <strong>Equipo:</strong> Guantes, vendas, protector bucal</li>
+          <li>🧠 <strong>Táctica:</strong> Defensa y combinaciones</li>
+          <li>🩺 <strong>Salud:</strong> Examen médico obligatorio</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Video Motivacional -->
+    <section class="video-motivacional">
+      <h3>¡El boxeo es disciplina pura! 💥</h3>
+      <div class="video-container">
+        <iframe 
+          src="https://www.youtube.com/embed/B_YHSnEHKJU" 
+          title="Mejores nocauts del boxeo" 
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p>"Los campeones no se hacen en el gimnasio. Se hacen con algo que tienen en su interior: un deseo, un sueño". — Muhammad Ali</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

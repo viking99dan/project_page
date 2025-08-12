@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fútbol</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Fútbol ⚽</h1>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    <nav id="navMenu">
+      <a href="index.html">🏠 Inicio</a>
+      <a href="futbol.html">⚽ Fútbol</a>
+      <a href="basquet.html">🏀 Básquetbol</a>
+      <a href="box.html">🥊 Boxeo</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Introducción -->
+    <section class="deporte-intro">
+      <h2>¡El deporte más popular del mundo!</h2>
+      <p>Con más de 4 mil millones de seguidores, el fútbol une naciones y culturas a través de un lenguaje universal.</p>
+    </section>
+
+    <!-- Tarjetas Informativas -->
+    <div class="tipos-deporte">
+      <!-- Tarjeta 1: Reglas Básicas -->
+      <div class="tipo">
+        <h4>📜 Reglas Básicas</h4>
+        <img 
+          src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" 
+          alt="Árbitro mostrando tarjeta amarilla" 
+          class="imagen-tarjeta"
+        >
+        <ul class="lista-reglas">
+          <li>⏱️ <strong>Duración:</strong> 2 tiempos de 45 minutos</li>
+          <li>👥 <strong>Jugadores:</strong> 11 por equipo</li>
+          <li>🚫 <strong>Fuera de juego:</strong> No adelantarse a la defensa</li>
+          <li>🟨 <strong>Amonestaciones:</strong> Tarjetas amarillas/rojas</li>
+        </ul>
+      </div>
+      
+      <!-- Tarjeta 2: Formatos de Juego (con tu imagen seleccionada) -->
+      <div class="tipo">
+        <h4>🔄 Formatos de Juego</h4>
+        <img 
+          src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" 
+          alt="Partido de fútbol 7" 
+          class="imagen-tarjeta"
+        >
+        <ul class="lista-reglas">
+          <li><strong>11 vs 11:</strong> Fútbol profesional</li>
+          <li><strong>7 vs 7:</strong> Fútbol rápido o infantil</li>
+          <li><strong>5 vs 5:</strong> Futsal (cancha pequeña)</li>
+          <li><strong>3 vs 3:</strong> Fútbol playa/urbano</li>
+        </ul>
+      </div>
+      
+      <!-- Tarjeta 3: Requisitos -->
+      <div class="tipo">
+        <h4>💪 Para Jugarlo</h4>
+        <img 
+          src="https://images.unsplash.com/photo-1527525443983-6e60c75fff46?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" 
+          alt="Jugador entrenando" 
+          class="imagen-tarjeta"
+        >
+        <ul class="lista-reglas">
+          <li>🏃‍♂️ <strong>Condición física:</strong> Resistencia y velocidad</li>
+          <li>👟 <strong>Equipo:</strong> Calzado y espinilleras</li>
+          <li>🧠 <strong>Táctica:</strong> Conocimiento básico de posiciones</li>
+          <li>🤝 <strong>Actitud:</strong> Trabajo en equipo</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Video Motivacional -->
+    <section class="video-motivacional">
+      <h3>¡El fútbol es pasión! 🔥</h3>
+      <div class="video-container">
+        <iframe 
+          src="https://www.youtube.com/embed/_2zoIHTWd00?autoplay=0&controls=1&rel=0" 
+          title="Mejores jugadas del fútbol mundial" 
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p>La grandeza se construye con disciplina y amor al juego.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
